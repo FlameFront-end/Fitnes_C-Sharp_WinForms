@@ -49,5 +49,11 @@ namespace Fitnes
             NewMember nm = new NewMember();
             nm.Show();
         }
+
+        private void newStaffToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            NewStaff ns = new NewStaff();
+            ns.Show();
+        }
     }
 }
