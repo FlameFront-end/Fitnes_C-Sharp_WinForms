@@ -1,0 +1,12 @@
+C:\Users\5017_\OneDrive\Рабочий стол\Fitnes\bin\Debug\Fitnes.exe.config
+C:\Users\5017_\OneDrive\Рабочий стол\Fitnes\bin\Debug\Fitnes.exe
+C:\Users\5017_\OneDrive\Рабочий стол\Fitnes\bin\Debug\Fitnes.pdb
+C:\Users\5017_\OneDrive\Рабочий стол\Fitnes\obj\Debug\Fitnes.csproj.AssemblyReference.cache
+C:\Users\5017_\OneDrive\Рабочий стол\Fitnes\obj\Debug\Fitnes.csproj.SuggestedBindingRedirects.cache
+C:\Users\5017_\OneDrive\Рабочий стол\Fitnes\obj\Debug\Fitnes.Form1.resources
+C:\Users\5017_\OneDrive\Рабочий стол\Fitnes\obj\Debug\Fitnes.Properties.Resources.resources
+C:\Users\5017_\OneDrive\Рабочий стол\Fitnes\obj\Debug\Fitnes.csproj.GenerateResource.cache
+C:\Users\5017_\OneDrive\Рабочий стол\Fitnes\obj\Debug\Fitnes.csproj.CoreCompileInputs.cache
+C:\Users\5017_\OneDrive\Рабочий стол\Fitnes\obj\Debug\Fitnes.exe
+C:\Users\5017_\OneDrive\Рабочий стол\Fitnes\obj\Debug\Fitnes.pdb
+C:\Users\5017_\OneDrive\Рабочий стол\Fitnes\obj\Debug\Fitnes.NewMember.resources
