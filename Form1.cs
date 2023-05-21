@@ -19,7 +19,8 @@ namespace Fitnes
 
         private void searchMemberToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            SearchMember sm = new SearchMember();
+            sm.Show();
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -60,6 +61,30 @@ namespace Fitnes
         {
             Equipment eq = new Equipment();
             eq.Show();
+        }
+
+        private void deleteMemberToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DeleteMember dm = new DeleteMember();
+            dm.Show();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if(MessageBox.Show("Вы уверены, что хотите выйти из программы?", "Выход из программы", MessageBoxButtons.YesNo, MessageBoxIcon.Error) == DialogResult.Yes)
+            {
+                Application.Exit();
+            } 
+        }
+
+        private void logOutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Вы уверены, что хотите выйти из учётной записи?", "Выход из учётной записи", MessageBoxButtons.YesNo, MessageBoxIcon.Error) == DialogResult.Yes)
+            {
+                Login lg = new Login();
+                lg.Show();
+                this.Close();
+            }
         }
     }
 }

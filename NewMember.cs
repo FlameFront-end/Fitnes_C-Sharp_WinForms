@@ -27,7 +27,7 @@ namespace Fitnes
         private void btnSave_Click(object sender, EventArgs e)
         {
             String fname = txtFirstName.Text;
-            String lname = dsf.Text;
+            String lname = Lname.Text;
 
             String gender = "";
 
@@ -66,7 +66,7 @@ namespace Fitnes
         private void btnReset_Click(object sender, EventArgs e)
         {
             txtFirstName.Clear();
-            textBox2.Clear();
+            Lname.Clear();
             txtAddress.Clear();
 
             radioButton2.Checked = false;
@@ -80,6 +80,11 @@ namespace Fitnes
 
             dateTimePickerDOB.Value = DateTime.Now;
             dateTimePickerJoinDate.Value = DateTime.Now;
+        }
+
+        private void NewMember_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.txtFirstName = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.Lname = new System.Windows.Forms.TextBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.dateTimePickerDOB = new System.Windows.Forms.DateTimePicker();
@@ -60,13 +60,13 @@
             this.txtFirstName.Size = new System.Drawing.Size(141, 22);
             this.txtFirstName.TabIndex = 0;
             // 
-            // textBox2
+            // Lname
             // 
-            this.textBox2.Location = new System.Drawing.Point(146, 91);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(141, 22);
-            this.textBox2.TabIndex = 1;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.Lname.Location = new System.Drawing.Point(146, 91);
+            this.Lname.Name = "Lname";
+            this.Lname.Size = new System.Drawing.Size(141, 22);
+            this.Lname.TabIndex = 1;
+            this.Lname.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // radioButton1
             // 
@@ -292,11 +292,12 @@
             this.Controls.Add(this.dateTimePickerDOB);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.Lname);
             this.Controls.Add(this.txtFirstName);
             this.Name = "NewMember";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NewMember";
+            this.Load += new System.EventHandler(this.NewMember_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -305,7 +306,7 @@
         #endregion
 
         private System.Windows.Forms.TextBox txtFirstName;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox Lname;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.DateTimePicker dateTimePickerDOB;

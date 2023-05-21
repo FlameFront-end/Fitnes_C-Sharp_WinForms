@@ -99,18 +99,21 @@
             this.deleteMemberToolStripMenuItem.Name = "deleteMemberToolStripMenuItem";
             this.deleteMemberToolStripMenuItem.Size = new System.Drawing.Size(127, 24);
             this.deleteMemberToolStripMenuItem.Text = "Delete Member";
+            this.deleteMemberToolStripMenuItem.Click += new System.EventHandler(this.deleteMemberToolStripMenuItem_Click);
             // 
             // logOutToolStripMenuItem
             // 
             this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
             this.logOutToolStripMenuItem.Size = new System.Drawing.Size(76, 24);
             this.logOutToolStripMenuItem.Text = "Log Out";
+            this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(47, 24);
             this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // Form1
             // 

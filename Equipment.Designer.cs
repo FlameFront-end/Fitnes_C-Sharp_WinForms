@@ -190,6 +190,7 @@
             this.Controls.Add(this.txtEquipName);
             this.Name = "Equipment";
             this.Text = "Equipment";
+            this.Load += new System.EventHandler(this.Equipment_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

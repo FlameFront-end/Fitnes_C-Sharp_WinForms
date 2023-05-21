@@ -50,5 +50,10 @@ namespace Fitnes
             txtGost.Clear();
             dateTimeDate.Value = DateTime.Now;
         }
+
+        private void Equipment_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
