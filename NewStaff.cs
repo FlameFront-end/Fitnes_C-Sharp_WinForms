@@ -75,5 +75,10 @@ namespace Fitnes
             dateTimePickerDOB.Value = DateTime.Now;
             dateTimePickerJOINDate.Value = DateTime.Now;
         }
+
+        private void NewStaff_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

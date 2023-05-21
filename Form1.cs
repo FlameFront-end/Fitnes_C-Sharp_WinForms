@@ -55,5 +55,11 @@ namespace Fitnes
             NewStaff ns = new NewStaff();
             ns.Show();
         }
+
+        private void equlpmentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Equipment eq = new Equipment();
+            eq.Show();
+        }
     }
 }

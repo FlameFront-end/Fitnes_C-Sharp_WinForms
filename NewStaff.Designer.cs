@@ -262,6 +262,7 @@
             this.Name = "NewStaff";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NewStaff";
+            this.Load += new System.EventHandler(this.NewStaff_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

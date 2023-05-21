@@ -11,3 +11,4 @@ C:\Users\5017_\OneDrive\Рабочий стол\Fitnes\obj\Debug\Fitnes.exe
 C:\Users\5017_\OneDrive\Рабочий стол\Fitnes\obj\Debug\Fitnes.pdb
 C:\Users\5017_\OneDrive\Рабочий стол\Fitnes\obj\Debug\Fitnes.NewMember.resources
 C:\Users\5017_\OneDrive\Рабочий стол\Fitnes\obj\Debug\Fitnes.NewStaff.resources
+C:\Users\5017_\OneDrive\Рабочий стол\Fitnes\obj\Debug\Fitnes.Equipment.resources

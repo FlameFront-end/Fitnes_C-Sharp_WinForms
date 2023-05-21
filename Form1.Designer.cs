@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.newMemberToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newStaffToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.equlpmentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -36,7 +37,6 @@
             this.deleteMemberToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,10 +54,17 @@
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1112, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1112, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(36, 24);
+            this.toolStripMenuItem1.Text = "⇒";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // newMemberToolStripMenuItem
             // 
@@ -69,7 +76,7 @@
             // newStaffToolStripMenuItem
             // 
             this.newStaffToolStripMenuItem.Name = "newStaffToolStripMenuItem";
-            this.newStaffToolStripMenuItem.Size = new System.Drawing.Size(88, 26);
+            this.newStaffToolStripMenuItem.Size = new System.Drawing.Size(88, 24);
             this.newStaffToolStripMenuItem.Text = "New Staff";
             this.newStaffToolStripMenuItem.Click += new System.EventHandler(this.newStaffToolStripMenuItem_Click);
             // 
@@ -78,6 +85,7 @@
             this.equlpmentToolStripMenuItem.Name = "equlpmentToolStripMenuItem";
             this.equlpmentToolStripMenuItem.Size = new System.Drawing.Size(95, 24);
             this.equlpmentToolStripMenuItem.Text = "Equlpment";
+            this.equlpmentToolStripMenuItem.Click += new System.EventHandler(this.equlpmentToolStripMenuItem_Click);
             // 
             // searchMemberToolStripMenuItem
             // 
@@ -103,13 +111,6 @@
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(47, 24);
             this.exitToolStripMenuItem.Text = "Exit";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(36, 26);
-            this.toolStripMenuItem1.Text = "⇒";
-            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // Form1
             // 
